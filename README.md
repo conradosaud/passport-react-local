@@ -6,18 +6,18 @@ O Passport é uma biblioteca em JavaScript que permite realizar a autenticação
 enquanto o Express permite o uso de um servidor que recebe requisições e devolve respostas.
 
 ## Client
-O diretório [client](https://github.com/conradosaud/passport-react-local/client) é o responsável pela interface web, feita
+O diretório [client](https://github.com/conradosaud/passport-react-local/tree/main/client) é o responsável pela interface web, feita
 em __React__ usando códigos e interfaces simples.
 O intuito é apenas ter uma interface que se possa cadastrar, logar e visualizar usuários que estão logados.
 
 ## Backend
-O diretório [backend](https://github.com/conradosaud/passport-react-local/backend) estão os arquivos do servidor onde está
+O diretório [backend](https://github.com/conradosaud/passport-react-local/tree/main/backend) estão os arquivos do servidor onde está
 configurado a autenticação de usuários e as rotas básicas para comunicação com o React.
 
 A conexão com o banco de dados é feita em _MySQL_ usando a biblioteca [mysql2](https://www.npmjs.com/package/mysql2).
 
 ## Database
-O arquivo [database.sql](https://github.com/conradosaud/passport-react-local/backend) contém o banco de dados que pode ser
+O arquivo [db_test.sql](https://github.com/conradosaud/passport-react-local/blob/main/db_test.sql) contém o banco de dados que pode ser
 usado para testar o sistema. Ele contém informações básicas de id, nome, email, senha e a data de criação do usuário.
 
 # Como usar
@@ -30,7 +30,7 @@ Para iniciar os projetos, use o comando `npm start` para iniciar o projeto React
 e `npm run start` para iniciar o servidor Express do diretório _backend_.
 
 Antes de usar a interface ainda é necessário configurar o acesso ao banco de dados que está no diretório _backend_.
-Acesse o arquivo [database.js](https://github.com/conradosaud/passport-react-local/backend/database.js) e altere as 
+Acesse o arquivo [database.js](https://github.com/conradosaud/passport-react-local/blob/main/backend/database.js) e altere as 
 credenciais de acesso ao banco de dados que você for usar. Feito isso, tudo está pronto para iniciar.
 
 Na interface web crie um usuário no formulário _Register_ e em seguida teste fazer o login dele no formulário _Login_.
