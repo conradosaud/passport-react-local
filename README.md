@@ -55,8 +55,8 @@ nos cookies do navegador. É usado em conjunto com o Express Session.
 
 ------------
 
-O código desse projeto foi montado baseado no vídeo do (Nathaniel Woodbury)[https://www.youtube.com/watch?v=IUw_TgRhTBE].
-O repositório original é este (aqui)[https://github.com/woodburydev/passport-local-video]. Este meu repositório tem algumas
+O código desse projeto foi montado baseado no vídeo do [Nathaniel Woodbury](https://www.youtube.com/watch?v=IUw_TgRhTBE).
+O repositório original é este [aqui](https://github.com/woodburydev/passport-local-video). Este meu repositório tem algumas
 pequenas alterações pessoais.
 
 
